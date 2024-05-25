@@ -1,0 +1,60 @@
+.pop {
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(177, 177, 177);
+}
+
+.popInicio[hidden] {
+    /*primero al hidden le quito el grid para que luego 
+                    funcione cuando declare el grid*/
+    display: none;
+}
+
+
+.popInicio {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    place-items: center;
+
+
+}
+
+
+
+
+.popInicio input:first-child {
+
+    width: 15%;
+    height: 16%;
+    padding-left: 30px;
+    font-size: 2rem;
+}
+
+.popInicio button {
+    width: 20%;
+    height: 50%;
+}
+
+.popFinal[hidden] {
+    display: none;
+}
+
+.popFinal {
+    background-color: rgb(178, 216, 216);
+    width: 100%;
+    height: 100%;
+    display: grid;
+
+}
+
+.nodos {
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+}

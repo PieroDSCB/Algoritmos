@@ -1,0 +1,50 @@
+@import url('pop.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.principal {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.cajaUno {
+    height: 80vh;
+    width: 100%;
+
+
+}
+
+.cajaDos {
+    height: 20vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cajaDos button {
+    width: 50%;
+    height: 50%;
+    justify-self: center;
+    align-self: center;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition-duration: .2s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    scale: 1;
+}
+
+.cajaDos button:last-child {
+    width: 60%;
+}
+
+/*
+.cajaDos button:hover {
+    scale: 1.4;
+}*/
